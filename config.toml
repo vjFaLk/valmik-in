@@ -27,7 +27,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "personal website & blog"
+  homeSubtitle = "git commit -m \"feat: website and blog\""
   # footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -64,3 +64,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "About"
     url = "about-me/"
     weight = 20
+
+#  [[menu.main]]
+#    name = "Posts"
+#    url = "posts/"
+#    weight = 10
