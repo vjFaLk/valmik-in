@@ -1,3 +1,6 @@
+//Imports 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
 // Colors
 //
 $theme: #018574;
@@ -10,7 +13,7 @@ $midnightblue: #2c3e50;
 // Fonts
 //
 $fonts: "Inconsolata", "Trebuchet MS", Verdana, "Verdana Ref", "Segoe UI", Candara, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, monospace;
-$code-fonts: Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
+$code-fonts: "Inconsolata", Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
 
 // Mixins
 //
