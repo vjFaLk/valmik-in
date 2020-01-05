@@ -2,8 +2,7 @@
 title = "About Me"
 date = "2019-12-22"
 +++
-
-I like being a techology generalist and have a keen interest in DevOps and automation. I particularly enjoy exploring new domains of work and incorporating them with technology. Love everything Open Source.
+I'm a technology generalist with a focus on DevOps. I enjoy exploring new business domains and incorporating them with technology. I love everything Open Source. I believe communication is key to solving most problems in life
 
 When I'm not working, I'm - 
 
