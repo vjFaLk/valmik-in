@@ -25,6 +25,7 @@ This particular tutorial is not for television sets, it will only work with a co
 
 ## What you need
 *These aren't affiliate links nor am I in cahoots with the manufacturers, you can find alternatives to the parts mentioned below.*
+
 - **A ESP8266 Board** ([What I got](https://www.amazon.in/gp/product/B07262H53W))
 - **A WS2812B RGB LED strip** ([What I got](https://www.amazon.in/gp/product/B07V9RN95V))
   - *I got a 1m / 60 LED strip for my 24-inch monitor. You can get a longer one / with more LEDs, however, your power usage will increase accordingly*
@@ -35,6 +36,7 @@ This particular tutorial is not for television sets, it will only work with a co
 
 ## Okay, I have no idea what I just bought
 Fret not. Things will come to light. Here's a quick overview -
+
 - **Your PC** will gather screen edge data and send it to the Controller
 - **Controller (ESP8266)** will receive this data and send it to the LED Strip
 - **Your LED Strip (WS2812B)** will receive this data and do the actual... lighting.
@@ -45,6 +47,7 @@ Fret not. Things will come to light. Here's a quick overview -
 I'm outsourcing this to a [really well-written blog post](https://tynick.com/blog/11-03-2019/getting-started-with-wled-on-esp8266/) that will also explain a lot of the jargon.
 
 Some notes - 
+
 - The cable colours for LED Strip may not be the same as the ones mentioned in the post. Your LED Strip will have come with a manual, refer to that to figure out which colour is what cable.
 - Once you have the LED Strip lighting up, you might not have all the LEDs lighting up. It's okay, you can fix this by logging into WLED's web UI by accessing it's IP Address (find this in your router admin), go to Settings > LED Settings and change "LED Count" to the number of LEDs your strip has.
 - I'd recommend reserving an IP Address for your LED Strip on your router. 
@@ -56,6 +59,7 @@ If you follow through the entire tutorial, you should end up with a functioning 
 
 We need *two* things here. 
 ### Prismatik - [Download from here](https://github.com/psieg/Lightpack/releases)
+
   - This is what does the screen capturing, but this can't directly communicate with our WLED Strip
   - Download, install and run the latest release. You'll be asked to go through the configuration wizard. 
   - Select "Setup another device" and then pick "Virtual LED Device)
@@ -65,6 +69,7 @@ We need *two* things here.
 
 
 ### Prismaik-WLED-WiFi - [Download from here](https://github.com/Lord-FEAR/Prismatik-WLED-WiFi)
+
   - This is a script someone wrote to be able to communicate between WLED and the Prismatik software
   - Follow the instructions in the README to set it up.
   - In the ini file, set 
@@ -77,7 +82,8 @@ The Prismatik-WLED readme mentions that it should be dropped into the "Plugins" 
 
 If you've set up everything correctly, your LED Strips should now change colours according to your monitor! Hard to tell if you haven't taped it on the back of your monitor, so I'd recommend testing it by playing a video [like this](https://www.youtube.com/watch?v=8u4UzzJZAUg)
 
-## Configuration Tips & Tricks 
+## Configuration Tips & Tricks
+
 - Set the "Grab Frequency" in Prismatik to the FPS that matches your screen's refresh rate
   - *This might be a bit much, but I'm not seeing a significant performance hit even when playing video games*
 - Update the FPS in the Prismatik-WLED configuration accordingly
