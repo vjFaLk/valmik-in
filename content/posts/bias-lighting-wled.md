@@ -62,7 +62,7 @@ We need *two* things here.
 
   - This is what does the screen capturing, but this can't directly communicate with our WLED Strip
   - Download, install and run the latest release. You'll be asked to go through the configuration wizard. 
-  - Select "Setup another device" and then pick "Virtual LED Device)
+  - Select "Setup another device" and then pick "Virtual LED Device"
   - You'll get to the "Zone placement section" make sure to set 60 LEDs and then select one of Andromedia, Cassiopeia, Pegasus
   - Rest of the wizard steps are self-explanatory, so I won't go through them
   - You can re-run the configuration wizard from the "Devices" section
@@ -72,7 +72,7 @@ We need *two* things here.
 
   - This is a script someone wrote to be able to communicate between WLED and the Prismatik software
   - Follow the instructions in the README to set it up.
-  - In the ini file, set 
+  - In the .ini file change the IP Address for the WLED device, the UDP port will be default
 
 This is how data moves in this setup - 
 
